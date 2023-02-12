@@ -21,4 +21,13 @@ NOTE: When you download your data from FB, you will only obtain messages from a 
 ```
 analyser = ChatAnalyser()
 ```
-This is the instance of the chat analyser from which you can get all kinds of exciting information
+This is the instance of the chat analyser from which you can get all kinds of exciting information. From this you can call a number of functions to get what you want out of your data
+
+### Word Usage Comparison
+In this function, you can supply up to 10 words and see how the usage of these words progressed over time. An example of how you would use this function follows:
+```
+analyser.CompareWordUsage(["lol", "funny", "yeti", "brown", "fleece"])
+```
+This function will then look for any instances of these words in your data, storing the word count and the timestamp, and eventually plot it all on a simple graph. An example of such a graph can be seen here:
+![Word Comparison Example](https://imgur.com/a/yALecuP.png)
+
