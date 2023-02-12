@@ -6,6 +6,9 @@ NOTE: When you download your data from FB, you will only obtain messages from a 
 ## Key Features
 * Find the most used words in the history of your chat
 * Find how many messages each member of the chat has posted
+* Find the messages with the most reactions
+* Find the images with the most reactions
+* Compare usage of certain words over time, with a line graph visualisation
 
 ## Setup
 * Download the script
