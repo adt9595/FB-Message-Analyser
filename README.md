@@ -29,5 +29,6 @@ In this function, you can supply up to 10 words and see how the usage of these w
 analyser.CompareWordUsage(["lol", "funny", "yeti", "brown", "fleece"])
 ```
 This function will then look for any instances of these words in your data, storing the word count and the timestamp, and eventually plot it all on a simple graph. An example of such a graph can be seen here:
+
 ![Word Comparison Example](https://i.imgur.com/Ku2FRZX.png)
 
