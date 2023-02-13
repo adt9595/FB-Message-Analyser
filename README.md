@@ -35,3 +35,8 @@ This function will then look for any instances of these words in your data, stor
 ### Find most common words
 With this function, you can find which words were the most commonly used in the history of the chat, and how many times those words were used.
 
+Here is an example of the usage of the function:
+```
+analyser.get_most_used_words(500, False, ["yes", "no", "hello"])
+```
+
